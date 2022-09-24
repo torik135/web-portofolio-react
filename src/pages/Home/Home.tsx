@@ -21,21 +21,21 @@ function Home() {
       <header>
         <Nav />
       </header>
-      <main className='flex mt-[2rem]'>
-        <section className='w-[2vw]'>
+      <div className='flex mt-[2rem]'>
+        <section className='w-[8vw]'>
           <Side />
         </section>
-        <section className='w-[30vw] ml-[6rem] translate-y-[6rem] mr-[5rem]'>
+        <section className='w-[20vw] translate-y-[6rem]'>
           <Me />
         </section>
         <motion.section
-          className='w-[50vw] mr-[1rem]'
+          className='w-[30vw] mx-auto'
           animate={boxAnimation}
           onMouseMove={(e) => handleMouseMoveBox(e)}
         >
           <Box />
         </motion.section>
-      </main>
+      </div>
     </>
   );
 }

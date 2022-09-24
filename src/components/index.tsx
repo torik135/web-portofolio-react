@@ -5,3 +5,4 @@ export { Side } from './Side/Side';
 export { Footer } from './Footer/Footer';
 export { Skills } from './Skills/Skills';
 export { Projects } from './Projects/Projects';
+export { Darwin } from './MovingImg/Darwin';

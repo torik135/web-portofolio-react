@@ -24,7 +24,7 @@ const ProjectLists: string[] = [
 function ProjectsSkills() {
   return (
     <>
-      <section className='flex flex-col justify-center items-center gap-[2rem] mt-[2rem]'>
+      <div className='flex flex-col justify-center items-center gap-[2rem] mt-[2rem]'>
         <div>
           <Skills />
         </div>
@@ -42,7 +42,7 @@ function ProjectsSkills() {
             ))}
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 }

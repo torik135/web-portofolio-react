@@ -15,6 +15,7 @@ module.exports = {
         'stacked-peaks': "url('/src/assets/svg/stacked-peaks-haikei.svg')",
         'stacked-steps': "url('/src/assets/svg/stacked-steps-haikei.svg')",
         'stacked-waves': "url('/src/assets/svg/stacked-waves-haikei.svg')",
+        '4dots-03': "url('/src/assets/svg/4dots-opacity03.svg')",
       },
     },
   },

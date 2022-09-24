@@ -8,8 +8,4 @@ uses:
 - vitejs
 
 TODO:
-- link at side (gh and linkedin)
-- modal at each nav item
-
-- remove nav item change it to bg
-- add new page blow home page
+- Darwin img move / tranform eye based on mouse move on window
