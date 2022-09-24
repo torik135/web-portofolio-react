@@ -7,7 +7,7 @@ const frameworks: string[] = ['REACTJS', 'NEXTJS', 'LARAVEL', 'DJANGO'];
 
 function Box() {
   return (
-    <div className='text-center rounded-md w-[32rem] p-[1rem] backdrop-grayscale'>
+    <div className='text-center rounded-md w-[40vw] p-[1rem] backdrop-grayscale'>
       <div className='grid grid-cols-2 gap-[.5rem] p-[1rem]'>
         {/* NO MAP BC: tailwindcss did not iterate bg-image/bg-color/color etc. */}
         <div className={`${devStyle} bg-circle-scatter rounded-tl-md`}>
