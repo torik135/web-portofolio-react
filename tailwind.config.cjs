@@ -17,6 +17,11 @@ module.exports = {
         'stacked-waves': "url('/src/assets/svg/stacked-waves-haikei.svg')",
         '4dots-03': "url('/src/assets/svg/4dots-opacity03.svg')",
       },
+      screens: {
+        'tablet': '768px',
+        'laptop': '1024px',
+        'desktop': '1280px',
+      }
     },
   },
   plugins: [],
