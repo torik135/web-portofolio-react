@@ -1,6 +1,8 @@
+import React from 'react';
+
 import './Me.css';
 
-function Me() {
+const Me: React.FC = () => {
   return (
     <>
       <div className='flex place-items-center'>
@@ -21,6 +23,6 @@ function Me() {
       </div>
     </>
   );
-}
+};
 
 export { Me };

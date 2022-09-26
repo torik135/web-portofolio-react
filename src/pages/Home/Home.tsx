@@ -1,11 +1,14 @@
+import React from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
-import { Me, Nav, Side, Box, Footer } from '../../components';
+import { Me, Nav, Side, Box } from '../../components';
 
-function Home() {
+const Home: React.FC = () => {
   const boxAnimation = useAnimation();
 
-  const handleMouseMoveBox = (e) => {
+  const handleMouseMoveBox: React.MouseEventHandler<HTMLElement> | undefined = (
+    e: any,
+  ) => {
     const { clientX, clientY } = e;
     const moveX = clientX - window.innerWidth / 2;
     const moveY = clientY - window.innerHeight / 2;
@@ -38,6 +41,6 @@ function Home() {
       </div>
     </>
   );
-}
+};
 
 export { Home };

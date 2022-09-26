@@ -1,6 +1,7 @@
-import { Projects, Skills } from '../../components';
+import React from 'react';
+import { Projects, IProjectList, Skills } from '../../components';
 
-const ProjectLists: string[] = [
+const ProjectLists: IProjectList[] = [
   {
     name: 'project1',
     code: 'github.com/torik135/project1',
@@ -21,7 +22,7 @@ const ProjectLists: string[] = [
   },
 ];
 
-function ProjectsSkills() {
+const ProjectsSkills: React.FC = () => {
   return (
     <>
       <div className='flex flex-col justify-center items-center gap-[2rem] mt-[2rem]'>
@@ -45,6 +46,6 @@ function ProjectsSkills() {
       </div>
     </>
   );
-}
+};
 
 export { ProjectsSkills };

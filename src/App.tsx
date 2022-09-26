@@ -1,7 +1,8 @@
+import React from 'react';
 import { Home, ProjectsSkills } from './pages';
 import './assets/css/App.css';
 
-function App() {
+const App: React.FC = () => {
   const year = new Date().getFullYear();
   return (
     <main className='w-[100vw]'>
@@ -19,6 +20,6 @@ function App() {
       </section>
     </main>
   );
-}
+};
 
 export default App;

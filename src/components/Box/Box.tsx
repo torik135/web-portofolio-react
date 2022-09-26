@@ -1,3 +1,5 @@
+import React from 'react';
+
 const devStyle: string = 'p-[.7rem] bg-cover color-gray-800 font-extrabold';
 const pStyle: string =
   'hover:bg-gray-800 hover:bg-opacity-25 hover:text-xl px-[2px] transition-all';
@@ -5,7 +7,7 @@ const pStyle: string =
 const lang: string[] = ['HTML', 'CSS', 'JS', 'PHP', 'PYTHON'];
 const frameworks: string[] = ['REACTJS', 'NEXTJS', 'LARAVEL', 'DJANGO'];
 
-function Box() {
+const Box: React.FC = () => {
   return (
     <div className='text-center rounded-md desktop:w-[40vw] p-[1rem]  laptop:w-[40vw] tablet:w-[60vw] backdrop-grayscale'>
       <div className='grid grid-cols-2 gap-[.5rem] p-[1rem]'>
@@ -39,6 +41,6 @@ function Box() {
       </div>
     </div>
   );
-}
+};
 
 export { Box };

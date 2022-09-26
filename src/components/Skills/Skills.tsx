@@ -1,3 +1,5 @@
+import React from 'react';
+
 const otherSkillList: string[] = [
   'GIT',
   'MySQL',
@@ -16,32 +18,36 @@ const h3Style: string = 'flex-1 font-bold';
 
 const skillsList: string = 'after:content-["-"]';
 
-function Skills() {
+const Skills: React.FC = () => {
   return (
     <div className='w-[70vw]'>
-      <h2 className='font-bold text-2xl text-center'>
-        Other Skills
-      </h2>
+      <h2 className='font-bold text-2xl text-center'>Other Skills</h2>
       <div className={divStyle}>
         <h3 className={h3Style}>Programming</h3>
         {otherSkillList.map((i) => (
-          <div className={skillsList} key={Math.random()}>{i}</div>
+          <div className={skillsList} key={Math.random()}>
+            {i}
+          </div>
         ))}
       </div>
       <div className={divStyle}>
         <h3 className={h3Style}>App</h3>
         {appSkillList.map((i) => (
-          <div className={skillsList} key={Math.random()}>{i}</div>
+          <div className={skillsList} key={Math.random()}>
+            {i}
+          </div>
         ))}
       </div>
       <div className={divStyle}>
         <h3 className={h3Style}>Hobby</h3>
         {hobbyList.map((i) => (
-          <div className={skillsList} key={Math.random()}>{i}</div>
+          <div className={skillsList} key={Math.random()}>
+            {i}
+          </div>
         ))}
       </div>
     </div>
   );
-}
+};
 
 export { Skills };

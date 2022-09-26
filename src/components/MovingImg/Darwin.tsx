@@ -1,10 +1,11 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import darwin from '../../assets/img/darwin.jpg';
 import eye from '../../assets/img/eye.jpg';
 
 const eyeStyle: string = 'absolute w-[.5rem]';
 
-function Darwin() {
+const Darwin: React.FC = () => {
   return (
     <div>
       <img
@@ -28,6 +29,6 @@ function Darwin() {
       </div>
     </div>
   );
-}
+};
 
 export { Darwin };
