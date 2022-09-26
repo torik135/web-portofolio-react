@@ -7,5 +7,4 @@ uses:
 - tailwindcss
 - vitejs
 
-TODO:
-- Darwin img move / tranform eye based on mouse move on window
+LIVE: https://web-portofolio-thoriq.vercel.app
