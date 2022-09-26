@@ -17,10 +17,10 @@ const Projects: React.FC<IProjectList> = (props) => {
       <div>
         <h3 className='mb-[2rem] font-bold capitalize'>{name}</h3>
         <div className='flex gap-[.5rem]'>
-          <a className={aStyle} href={code}>
+          <a className={aStyle} href={code} target='_blank'>
             code
           </a>
-          <a className={aStyle} href={live}>
+          <a className={aStyle} href={live} target='_blank'>
             live
           </a>
         </div>
