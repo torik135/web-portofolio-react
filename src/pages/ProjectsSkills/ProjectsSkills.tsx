@@ -3,22 +3,40 @@ import { Projects, IProjectList, Skills } from '../../components';
 
 const ProjectLists: IProjectList[] = [
   {
-    name: 'project1',
-    code: 'github.com/torik135/project1',
-    live: 'http:live.com/project1',
-    desc: 'this is desc',
+    name: '2048 game',
+    code: 'https://github.com/torik135/js-game',
+    live: 'https://js-game-sooty.vercel.app',
+    desc: 'Game made with HTML, CSS, and JS',
   },
   {
-    name: 'project2',
-    code: 'github.com/torik135/project2',
-    live: 'http:live.com/project2',
-    desc: 'this is desc',
+    name: 'Youtube Clone',
+    code: 'https://github.com/torik135/react-youtube-rapidapi',
+    live: 'https://react-youtube-rapidapi.vercel.app',
+    desc: 'Youtube Clone with ReactJS and RapidAPI',
   },
   {
-    name: 'project3',
-    code: 'github.com/torik135/project3',
-    live: 'http:live.com/project3',
-    desc: 'this is desc',
+    name: 'Todo App',
+    code: 'https://github.com/torik135/todoapp',
+    live: 'https://todoapp-two-xi.vercel.app',
+    desc: 'TodoApp using ReactJS',
+  },
+  {
+    name: 'State CSV',
+    code: 'https://github.com/torik135/nextjs-state-csv',
+    live: 'https://nextjs-state-csv.vercel.app',
+    desc: 'Save State into CSV File to Download using NextJS',
+  },
+  {
+    name: 'Google Clone',
+    code: 'https://github.com/torik135/googel-reactjs-tailwind',
+    live: 'https://this-search.netlify.app/search',
+    desc: 'Google Clone with ReactJS and Tailwindcss',
+  },
+  {
+    name: 'HXH Blog',
+    code: 'https://github.com/torik135/HXH-blog',
+    live: 'https://this-hxh-blog.vercel.app',
+    desc: 'Blog using NextJS',
   },
 ];
 
