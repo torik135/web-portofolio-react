@@ -7,4 +7,7 @@ uses:
 - tailwindcss
 - vitejs
 
+TODO:
+- mobile screen
+
 LIVE: https://web-portofolio-thoriq.vercel.app
