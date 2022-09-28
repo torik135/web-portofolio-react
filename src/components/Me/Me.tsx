@@ -14,7 +14,7 @@ const Me: React.FC = () => {
           </h1>
           <br />
           <p className='mt-[4rem]'>
-            And i'am a{' '}
+            And i'am a<br />
             <span className='font-bold webdev after:bg-gradient-to-r after:from-purple-700 after:via-orange-500 after:to-green-300'>
               Web developer
             </span>
