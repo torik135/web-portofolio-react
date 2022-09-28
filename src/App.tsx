@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <section className='min-h-[100vh]'>
         <ProjectsSkills />
       </section>
-      <section className='text-center'>
+      <section className='text-center mt-[2rem] p-[2rem]'>
         <footer>&copy; {year} | torik135</footer>
       </section>
     </main>
