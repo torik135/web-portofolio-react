@@ -16,7 +16,7 @@ const divStyle: string =
 
 const h3Style: string = 'flex-1 font-bold';
 
-const skillsList: string = 'after:content-["-"]';
+const skillsList: string = 'after:content-["-"] text-[1rem]';
 
 const Skills: React.FC = () => {
   return (
