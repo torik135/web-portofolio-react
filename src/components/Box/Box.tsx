@@ -9,7 +9,7 @@ const frameworks: string[] = ['REACTJS', 'NEXTJS', 'LARAVEL', 'DJANGO'];
 
 const Box: React.FC = () => {
   return (
-    <div className='text-center rounded-md desktop:w-[40vw] p-[1rem]  laptop:w-[40vw] tablet:w-[60vw] backdrop-grayscale'>
+    <div className='text-center rounded-md p-[1rem] desktop:w-[40vw] laptop:w-[40vw] tablet:w-[60vw] sm:w-[80vw] backdrop-grayscale'>
       <div className='grid grid-cols-2 gap-[.5rem] p-[1rem]'>
         {/* NO MAP BC: tailwindcss did not iterate bg-image/bg-color/color etc. */}
         <div className={`${devStyle} bg-circle-scatter rounded-tl-md`}>
@@ -26,14 +26,14 @@ const Box: React.FC = () => {
       </div>
 
       <div className='mx-[1rem] p-[1rem] bg-stacked-peaks bg-contain hover:bg-cover rounded-b-md h-[5rem] hover:h-[12rem] transition-all'>
-        <div className='flex items-center justify-center gap-[1rem] rounded-md h-[3rem] hover:h-[10rem] p-[1rem] desktop:text-xl laptop:text-xl tablet:text-sm hover:bg-gray-500 hover:bg-opacity-25 hover:text-xl transition-all'>
+        <div className='flex items-center justify-center gap-[1rem] rounded-md h-[3rem] hover:h-[10rem] p-[1rem] desktop:text-xl laptop:text-xl tablet:text-sm sm:text-[.5rem] hover:bg-gray-500 hover:bg-opacity-25 hover:text-xl transition-all'>
           {lang?.map((i) => (
             <div key={Math.random()}>{i}</div>
           ))}
         </div>
       </div>
       <div className='mx-[1rem] mt-[1rem] p-[1rem] bg-stacked-waves bg-cover filter hover:hue-rotate-15 rounded-md h-[4rem] hover:font-extrabold transition-all'>
-        <div className='flex desktop:text-xl laptop:text-lg tablet:text-xs items-center h-[2rem] justify-center gap-[1rem] '>
+        <div className='flex desktop:text-xl laptop:text-lg tablet:text-xs sm:text-[.5rem] items-center h-[2rem] justify-center gap-[1rem] '>
           {frameworks?.map((i) => (
             <div key={Math.random()}>{i}</div>
           ))}

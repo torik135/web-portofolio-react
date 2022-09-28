@@ -49,7 +49,7 @@ const ProjectsSkills: React.FC = () => {
         </div>
         <div>
           <h2 className='mb-[2rem] text-center text-2xl font-bold'>Projects</h2>
-          <div className='grid grid-cols-3 gap-[1rem]'>
+          <div className='grid tablet:grid-cols-3 sm:grid-cols-1 gap-[1rem]'>
             {ProjectLists.map((i) => (
               <Projects
                 name={i.name}

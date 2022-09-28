@@ -12,7 +12,7 @@ const appSkillList: string[] = ['Photoshop', 'Inkscape', 'VSCode', 'Final Cut'];
 const hobbyList: string[] = ['Drawing', 'Video Editing', 'Writing'];
 
 const divStyle: string =
-  'flex desktop:flex-row laptop:flex-row tablet:flex-col justify-between gap-[.5rem] p-[.5rem] px-[2rem] border-l-2 desktop:border-l-2 laptop:border-l-2 tablet:border-none place-items-center text-xl desktop:text-xl laptop:text-xl tablet:text-sm';
+  'flex desktop:flex-row laptop:flex-row tablet:flex-col sm:flex-col justify-between gap-[.5rem] p-[.5rem] px-[2rem] border-l-2 desktop:border-l-2 laptop:border-l-2 tablet:border-none sm:border-none place-items-center text-xl desktop:text-xl laptop:text-xl tablet:text-sm sm:text-sm';
 
 const h3Style: string = 'flex-1 font-bold';
 

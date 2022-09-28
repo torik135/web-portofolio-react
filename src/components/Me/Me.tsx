@@ -9,7 +9,7 @@ const Me: React.FC = () => {
         <div>
           <h2 className='font-bold'>Hi, My name is</h2>
           <br />
-          <h1 className='text-8xl font-extrabold hover:text-transparent bg-stacked-steps transition bg-clip-text bg-contain bg-left myname'>
+          <h1 className='desktop:text-8xl laptop:text-8xl tablet:text-8xl sm:text-5xl font-extrabold hover:text-transparent bg-stacked-steps transition bg-clip-text bg-contain bg-left myname'>
             THORIQ
           </h1>
           <br />

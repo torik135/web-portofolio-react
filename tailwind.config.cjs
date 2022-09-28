@@ -18,6 +18,7 @@ module.exports = {
         '4dots-03': "url('/src/assets/svg/4dots-opacity03.svg')",
       },
       screens: {
+        'sm': '320px',
         'tablet': '768px',
         'laptop': '1024px',
         'desktop': '1280px',
