@@ -33,7 +33,7 @@ const Box: React.FC = () => {
         </div>
       </div>
       <div className='mx-[1rem] mt-[1rem] p-[1rem] bg-stacked-waves bg-cover filter hover:hue-rotate-15 rounded-md h-[4rem] hover:font-extrabold transition-all'>
-        <div className='flex desktop:text-xl laptop:text-lg tablet:text-xs sm:text-[.5rem] items-center h-[2rem] justify-center gap-[1rem] '>
+        <div className='flex desktop:text-xl laptop:text-lg tablet:text-xs sm:text-[.5rem] hover:text-[.7rem] items-center h-[2rem] justify-center gap-[1rem] transition-all'>
           {frameworks?.map((i) => (
             <div key={Math.random()}>{i}</div>
           ))}
