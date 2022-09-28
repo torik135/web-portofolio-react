@@ -13,7 +13,7 @@ const aStyle: string =
 const Projects: React.FC<IProjectList> = (props) => {
   const { name, code, live, desc } = props;
   return (
-    <div className='flex flex-col rounded-md p-[1rem] h-[22rem] w-[12rem] bg-blob-scene bg-cover bg-no-repeat hover:scale-110 hover:shadow-xl gap-[1rem] transition-all'>
+    <div className='flex flex-col rounded-md p-[1rem] h-[17rem] w-[12rem] bg-blob-scene bg-cover bg-no-repeat hover:scale-110 hover:shadow-xl gap-[1rem] transition-all'>
       <div>
         <h3 className='mb-[2rem] font-bold capitalize'>{name}</h3>
         <div className='flex gap-[.5rem]'>
