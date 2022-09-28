@@ -32,7 +32,7 @@ const Home: React.FC = () => {
           <Me />
         </section>
         <motion.section
-          className='desktop:w-[30vw] laptop:w-[30vw] tablet:w-[60vw] sm:w-[80vw] mx-auto desktop:relative laptop:relative'
+          className='desktop:w-[30vw] laptop:w-[30vw] tablet:w-[60vw] sm:w-[80vw] sm:mt-[1rem] mx-auto desktop:relative laptop:relative'
           animate={boxAnimation}
           onMouseMove={(e) => handleMouseMoveBox(e)}
         >
