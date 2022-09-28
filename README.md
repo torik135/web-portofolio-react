@@ -8,6 +8,6 @@ uses:
 - vitejs
 
 TODO:
-- mobile screen
+- mobile screen [DONE]
 
 LIVE: https://web-portofolio-thoriq.vercel.app
